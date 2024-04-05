@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora de Horas</h1>
+        <div>
+            <h2>Digite os horarios  que deseja calcular!</h2>
+            <input type="number" placeholder="Hora Inicial"  id="h-inicial"> &nbsp; : &nbsp;
+            <input type="number" placeholder="Minuto Inicial"  id="m-inicial"> <br> 
+            <input type="number" placeholder="Hora Final"  id="h-final"> &nbsp; : &nbsp;
+            <input type="number" placeholder="Minuto Final"  id="m-final"> <br><br>
+
+
+            <button onclick="soma()">Soma</button> &nbsp; 
+            <button onclick="diferenca()">Diferença</button> <br>
+            <p id="r">Resultado</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
